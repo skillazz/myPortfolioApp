@@ -4,7 +4,7 @@ The project was bootstrapped with [Create React App](https://github.com/facebook
 
 ## Setup
 
-To run the project, mae sure you are in the project directory, then install it locally using npm
+To run the project please make sure you are in the project directory, then install it locally using npm
 
 ``
 $ npm install
