@@ -84,7 +84,7 @@ a {
 }
 
 a:hover {
-  color: var(--white-color);
+  color: var(--grey-color);
 }
 
 .btn {
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .btn:hover {
-  background: var(--white-color);
+  background: var(--grey-color);
   color: var(--black-color);
   border-color: transparent;
 }
@@ -116,21 +116,28 @@ img {
   object-fit: cover;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1120px){
   .container {
     width: var(--container-width-md);
   }
   .section {
     margin-top: 6rem;
   }
+  .btn {
+    padding: 0.8rem;
+  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   .container {
     width: var(--container-width-sm);
   }
   .section > h2 {
     margin-bottom: 2rem;
+  }
+
+  .btn {
+    padding: 0.6rem;
   }
 
 }
