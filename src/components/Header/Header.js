@@ -1,12 +1,14 @@
 import CTA from "./CTA";
 import IMAGE from '../../assets/image.jpg'
-import Nav from "../Nav/Nav";
+import MobileNav from "../Nav/MobileNav";
 import HeaderSocials from "./HeaderSocials";
+import Navbar from "../Nav/Navbar";
 
 const Header = () => {
     return (
-        <header id="header">
-            <Nav/>
+        <header id="header" >
+            <Navbar />
+            <MobileNav/>
             <div className="container header__container">
                 <h1>Hi, I'm<br/><br/>Marcin Kozłowski</h1>
                 <h5 className="text-light">Frontend Developer</h5>

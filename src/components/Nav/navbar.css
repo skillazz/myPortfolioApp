@@ -1,0 +1,42 @@
+.nav__main {
+    display: flex;
+    height: 5.5rem;
+    gap: 1.5rem;
+    align-items: center;
+    margin-right: 3rem;
+    justify-content: flex-end;
+
+}
+
+.nav__logo-wrapper {
+    display: block;
+    position: absolute;
+    margin: 1rem;
+}
+
+
+.nav__main > a {
+    color: var(--grey-color);
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+}
+
+.nav__main > a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 7px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--yellow-color);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav__main > a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
