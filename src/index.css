@@ -63,14 +63,14 @@ h5 {
 }
 
 section {
-  margin-top: 8rem;
+
   height: 100vh;
 }
 
 section > h2,
 section > h5 {
   text-align: center;
-  color: var(--yellow-color);
+  color: var(--black-color);
 }
 
 article > h5, small {

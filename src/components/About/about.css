@@ -1,0 +1,25 @@
+
+.container-about__me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 9rem;
+}
+
+.about__me {
+    display: flex;
+    justify-content: center;
+    padding: 0 5.5rem;
+}
+
+@media screen and (max-width: 1120px) {
+    .container-about__me {
+        grid-template-columns: 1fr;
+        margin-top: 1rem;
+    }
+    .about__me {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+}
